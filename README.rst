@@ -1,3 +1,12 @@
+
+This was an ambitions attempt to implement INT4 and WMMA support in vulkan on the Strix Halo platform.
+
+With some quick and dirty methods, I saw a 20% increase on performance on INT4 primatives.  And an additional 10% improvement with WMMA using 16x16 matrices.
+
+It was an extremely dirty hack and not production ready in any sense, but it shows  that there's at least 30% possible performance gains on the strix halo.   
+
+I don't have the bandwidth to pursue this further.
+
 `Mesa <https://mesa3d.org>`_ - The 3D Graphics Library
 ======================================================
 
